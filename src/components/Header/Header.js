@@ -6,7 +6,10 @@ export default function Header() {
       <div className="container">
         <div className="left-container">
           <div className="estatery">
-            <img src="../real-estate.png" className="real-estate"></img>
+            <img
+              src={require("../../assets/images/real-estate.png")}
+              className="real-estate"
+            ></img>
             <h5>Estatery</h5>
           </div>
           <div className="list-items">
