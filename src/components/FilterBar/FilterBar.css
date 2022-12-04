@@ -1,0 +1,24 @@
+.input {
+  border: none;
+  width: 100%;
+
+  /* border-bottom: 1px solid grey; */
+}
+.input-wrapper {
+  border-right: 1px solid grey;
+  width: 25%;
+  padding: 10px 20px;
+}
+.filterbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: #ffffff;
+  padding: 15px 0;
+  margin: 25px 55px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.price > .input {
+  width: 50%;
+}
